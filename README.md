@@ -28,7 +28,33 @@ You need a few things to use Not Devin Like
 - Python for Python code
 - TypeScript installed since that's what Not Devin is written in
 
-Then download Not Devin and follow the instructions to set it up We will have more detailed steps here soon
+### Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/ItzCrazyKns/Not-Devin.git
+```
+
+2. Install dependencies
+
+```bash
+npm i
+```
+
+3. Then rename the `.env.example` file to `.env.` and fill all the fields.
+   
+4. Build Not Devin
+
+```bash
+npm run build
+```
+
+5. Run Not Devin
+   
+```bash
+npm run start
+```
 
 ## Using Not Devin
 
