@@ -14,7 +14,7 @@ What Not Devin does
 - Can change your code to make it better
 - Works with JavaScript and Python for now
 
-Remember this is a basic version we plan to do more as we go
+Remember this is a basic version I plan to do more as I go
 
 ## Safety Warning
 
@@ -60,4 +60,4 @@ npm run start
 
 After setting up just tell Not Devin what you want it to do It will write code run it and fix things if needed Be careful and check the code it makes
 
-We're working on making Not Devin better Let us know if you have ideas or find bugs Thanks for checking out Not Devin
+I am working on making Not Devin better. Let me know on Discord (My username is `itzcrazykns`) if you have ideas or found any bugs. Thanks for checking out Not Devin ⭐
