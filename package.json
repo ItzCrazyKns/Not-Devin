@@ -1,0 +1,16 @@
+{
+  "name": "not-devin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@inquirer/prompts": "^4.3.0",
+    "@langchain/openai": "^0.0.20",
+    "@types/node": "^20.11.27",
+    "@types/shelljs": "^0.8.15",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.1.27",
+    "shelljs": "^0.8.5",
+    "zod": "^3.22.4"
+  }
+}
