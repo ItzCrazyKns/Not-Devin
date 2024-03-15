@@ -1,7 +1,7 @@
 import { z } from "zod";
 import { DynamicStructuredTool } from "@langchain/core/tools";
-import fs from "fs"
-import shelljs from "shelljs";
+import * as fs from "fs"
+import * as shelljs from "shelljs";
 import { input, confirm } from '@inquirer/prompts';
 
 export const tools = [
