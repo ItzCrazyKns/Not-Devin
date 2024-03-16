@@ -16,6 +16,13 @@ What Not Devin does
 
 Remember this is a basic version I plan to do more as I go
 
+## Todos
+
+- [ ] Build an UI
+- [ ] Add browser tool (It currently exceeds the context window)
+  
+And many more as I move forward... If you want to help me add these features please open a PR or reach me via Discord (My username is ItzCrazyKns)
+
 ## Safety Warning
 
 Not Devin is still early and simple it can run commands that might not be safe for your computer always check what it does before you let it run wild
