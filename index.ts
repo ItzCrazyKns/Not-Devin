@@ -9,7 +9,7 @@ import {
     SystemMessage,
 } from "@langchain/core/messages";
 import { input } from '@inquirer/prompts';
-import { tools } from './tools';
+import tools from './tools';
 import { config } from "dotenv";
 config()
 
@@ -43,13 +43,17 @@ const main = async () => {
 
                   ## Instructions
                   The user is on the operating system ${process.platform} so make sure to execute commands accordingly.
+                  
                   These are a few unstructions you need to take care of while writing code:
                   - Never use comments.
                   - Always write full code and never leave anything to the user to do except for running the code.
                   - Always use the tools to write, debug, save and execute the code before returning the final output to the user.
                   - Always use the tools to install dependencies.
                   - Always write code in a good way and never write basic code always go for advance.
-
+                  - After writing the code always test it and make sure it is working fine before returning the final output to the user.
+                  - If the code is not working fine you have to debug it and make it work.
+                  - If you want to ask any question from the user use the ask-user tool to ask the user for the information.
+        
                   ## Example
                   You can use these tools to write, debug, save and execute the code. You can also use these tools to install dependencies and run the code. You always before giving the final output need to run the code and test it.
                   If you face an error while testing the code you can debug and test it yourself. If a dependency is missing you can install it using command-executar and pip instal or yarn add command. 
