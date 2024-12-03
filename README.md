@@ -1,3 +1,6 @@
+> [!WARNING]
+> **Please note that this project isn't maintained anymore, consider using [Devika](https://github.com/stitionai/devika)**
+
 # Not Devin
 
 ## Introduction
